@@ -32,6 +32,7 @@ To ensure you have installed Node.js and npm locally in your terminal, type:
 node -v
 npm -v
 ```
+If you haven't installed Node.js or npm refer to the installation guide [here](https://nodejs.org/en/download)
 #### ⚠️ Dependencies
 Install the following dependencies in your terminal:
 ```sh
@@ -50,7 +51,7 @@ As long as no internal errors occured, the terminal will state that:
 Server is listening on port 3000
 ```
 
-Now, choose a subreddit (EX: news) and the number of articles desired (EX: 5) and type into the browser:
+Now, choose a subreddit (e.g. news) and the number of articles desired (e.g. 5) and type into the browser:
 ```
 http://localhost:3000/reddit-viewer/news?limit=5
 ```
