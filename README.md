@@ -9,6 +9,7 @@ Node.js module that gets the top articles of a subreddit
 ## Table of contents
 * [Description](#Description)
 * [Installation](#Installation)
+* [Cloud Access](#Heroku)
 * [Using an API Platform (ex. Postman)](#Postman)
 
 ## 📖 Description
@@ -55,8 +56,9 @@ http://localhost:3000/reddit-viewer/news?limit=5
 ```
 
 This should return an array of json objects.
-### Access on Heroku
-COMING SOON
+### Heroku
+Click [here](https://subreddit-scraper.herokuapp.com/reddit-viewer/news?limit=10) to access the scraper on the cloud.
+Change the fields: "news" and "5" as desired.
 ## Postman
 
 Alternatively, you can access the json data on a third party API platform such as Postman. After downloading Postman, you can enter the same url and select "GET" to return pretty json objects like this: 
