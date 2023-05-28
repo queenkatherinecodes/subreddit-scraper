@@ -1,0 +1,76 @@
+{
+  message: 'There is no subreddit with that name: ADSFASDFASDFASDFSDF',
+  level: 'error',
+  timestamp: '2023-05-28T07:15:12.042Z'
+}
+{
+  meta: {
+    req: {
+      url: '/reddit-viewer/ADSFASDFASDFASDFSDF',
+      headers: {
+        host: '127.0.0.1:62940',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/reddit-viewer/ADSFASDFASDFASDFSDF',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 665
+  },
+  level: 'warn',
+  message: 'HTTP GET /reddit-viewer/ADSFASDFASDFASDFSDF',
+  timestamp: '2023-05-28T07:15:12.047Z'
+}
+{
+  meta: {
+    req: {
+      url: '/news?limit=5',
+      headers: {
+        host: 'localhost:3000',
+        'upgrade-insecure-requests': '1',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15',
+        'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/news?limit=5',
+      query: { limit: '5' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: 'warn',
+  message: 'HTTP GET /news?limit=5',
+  timestamp: '2023-05-28T08:34:05.682Z'
+}
+{
+  meta: {
+    req: {
+      url: '/news?limit=5',
+      headers: {
+        host: 'localhost:3000',
+        'upgrade-insecure-requests': '1',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15',
+        'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/news?limit=5',
+      query: { limit: '5' }
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: 'warn',
+  message: 'HTTP GET /news?limit=5',
+  timestamp: '2023-05-28T08:34:12.403Z'
+}

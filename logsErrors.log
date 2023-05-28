@@ -1,0 +1,5 @@
+{
+  message: 'There is no subreddit with that name: ADSFASDFASDFASDFSDF',
+  level: 'error',
+  timestamp: '2023-05-28T07:15:12.042Z'
+}
