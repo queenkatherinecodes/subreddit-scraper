@@ -1,4 +1,4 @@
-<h1 align="center">Node.js Subreddit Scarper</h1>
+<h1 align="center">Node.js Subreddit Scraper</h1>
 
 <div align="center">
 
@@ -9,16 +9,18 @@ Node.js module that gets the top articles of a subreddit
 ## Table of contents
 * [Description](#Description)
 * [Installation](#Installation)
+* [Cloud Access](#Heroku)
 * [Using an API Platform (ex. Postman)](#Postman)
 
 ## 📖 Description
-    This is a backend API that uses the Nodejs framework as well as the express and axios libraries to get http requests from the reddit website.
-    The application returns sanitized JSON objects that are ready to be used by front-end/UI developers.
+This is a backend API that uses the Node.js framework as well as the express and axios libraries to get http requests from the reddit website.
+The application returns sanitized JSON objects that are ready to be used by front-end/UI developers.
 
-    Errors and warnings are logged using the winston and express-winston libraries.
-    Unit testing is performed using the jest and super-test libraries.
+Errors and warnings are logged using the winston and express-winston libraries.
+Unit testing is performed using the jest and supertest libraries.
 
 ## 📦 Installation
+
 ### 🚀 Getting Started Locally
 
 Fork the repository and open the subreddit-scraper directory in your terminal.
@@ -30,7 +32,7 @@ To ensure you have installed Node.js and npm locally in your terminal, type:
 node -v
 npm -v
 ```
-##### Dependencies
+#### ⚠️ Dependencies
 Install the following dependencies in your terminal:
 ```sh
 npm i express axios winston express-winston jest supertest nodemon
@@ -54,8 +56,9 @@ http://localhost:3000/reddit-viewer/news?limit=5
 ```
 
 This should return an array of json objects.
-### Access on Heroku
-COMING SOON
+### Heroku
+Click [here](https://subreddit-scraper.herokuapp.com/reddit-viewer/news?limit=10) to access the scraper on the cloud.
+Change the fields: "news" and "5" as desired.
 ## Postman
 
 Alternatively, you can access the json data on a third party API platform such as Postman. After downloading Postman, you can enter the same url and select "GET" to return pretty json objects like this: 
