@@ -12,11 +12,11 @@ Node.js module that gets the top articles of a subreddit
 * [Using an API Platform (ex. Postman)](#Postman)
 
 ## 📖 Description
-This is a backend API that uses the Nodejs framework as well as the express and axios libraries to get http requests from the reddit website.
+This is a backend API that uses the Node.js framework as well as the express and axios libraries to get http requests from the reddit website.
 The application returns sanitized JSON objects that are ready to be used by front-end/UI developers.
 
 Errors and warnings are logged using the winston and express-winston libraries.
-Unit testing is performed using the jest and super-test libraries.
+Unit testing is performed using the jest and supertest libraries.
 
 ## 📦 Installation
 
