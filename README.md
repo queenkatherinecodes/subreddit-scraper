@@ -1,4 +1,4 @@
-<h1 align="center">Node.js Subreddit Scarper</h1>
+<h1 align="center">Node.js Subreddit Scraper</h1>
 
 <div align="center">
 
