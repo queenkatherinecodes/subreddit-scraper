@@ -12,13 +12,14 @@ Node.js module that gets the top articles of a subreddit
 * [Using an API Platform (ex. Postman)](#Postman)
 
 ## 📖 Description
-    This is a backend API that uses the Nodejs framework as well as the express and axios libraries to get http requests from the reddit website.
-    The application returns sanitized JSON objects that are ready to be used by front-end/UI developers.
+This is a backend API that uses the Nodejs framework as well as the express and axios libraries to get http requests from the reddit website.
+The application returns sanitized JSON objects that are ready to be used by front-end/UI developers.
 
-    Errors and warnings are logged using the winston and express-winston libraries.
-    Unit testing is performed using the jest and super-test libraries.
+Errors and warnings are logged using the winston and express-winston libraries.
+Unit testing is performed using the jest and super-test libraries.
 
 ## 📦 Installation
+
 ### 🚀 Getting Started Locally
 
 Fork the repository and open the subreddit-scraper directory in your terminal.
@@ -30,7 +31,7 @@ To ensure you have installed Node.js and npm locally in your terminal, type:
 node -v
 npm -v
 ```
-##### Dependencies
+#### ⚠️ Dependencies
 Install the following dependencies in your terminal:
 ```sh
 npm i express axios winston express-winston jest supertest nodemon
